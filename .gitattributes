@@ -1,0 +1,5 @@
+# Batch files must check out with CRLF - cmd.exe misparses LF-only .bat files
+*.bat text eol=crlf
+*.ini text eol=crlf
+# Everything else: normalize to LF in repo, native on checkout
+* text=auto
