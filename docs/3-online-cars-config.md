@@ -1,5 +1,7 @@
 # Guide 3 — Tuning "All MP Vehicles in SP" (the online-cars-in-traffic system)
 
+*One specific mod from my recommended loadout ([guide 2](2-mod-setup.md)) — like everything there, it's a personal pick, not a requirement of the swap system.*
+
 Mod: [All MP Vehicles in SP](https://www.gta5-mods.com/scripts/all-mp-vehicles-in-sp) by sruckstar ([source](https://github.com/sruckstar/gta5-all-mp-vehicles-in-sp)). It populates single-player Los Santos with GTA Online vehicles — rotating through **parking lots**, **class-based road sections in traffic**, and the **LS Car Meet area** (the best place to farm HSW supercars). There is no dealership and no spawn menu; the world just *has* these cars now.
 
 The config lives at (inside the modded copy, wherever it's currently swapped in):

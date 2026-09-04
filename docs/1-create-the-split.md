@@ -4,7 +4,7 @@ This turns one modded GTA V Enhanced (Steam) install into two: a **verified-clea
 
 You need:
 - ~105 GB free on the drive holding the game (for the second copy; the game itself is ~103 GB)
-- GTA V Enhanced installed and *currently modded* (if you're starting fresh, mod it first — see [guide 2](2-mod-setup.md) — then come back)
+- GTA V Enhanced installed, containing whatever mods you want — **any mods, or none** (the split doesn't care what's in the folder; if you'd like my recommended loadout, it's in [guide 2](2-mod-setup.md))
 - Steam logged in
 
 Throughout this guide, `<LIB>` means your `steamapps\common` folder (e.g. `D:\SteamLibrary\steamapps\common`).
@@ -107,4 +107,4 @@ Never launch either copy by double-clicking an exe — the Steam Enhanced build 
 - **Story saves** live in `Documents\Rockstar Games\` and are shared by both copies — your story progress is identical either side.
 - BattlEye is dormant in Story Mode; the vanilla copy carries it, and the modded copy's copy of the folder is inert unless you go Online (which you must never do from the modded side).
 
-→ Next: [guide 2 — mod setup and load order](2-mod-setup.md)
+→ Next (optional): [guide 2 — my recommended mod loadout](2-mod-setup.md)

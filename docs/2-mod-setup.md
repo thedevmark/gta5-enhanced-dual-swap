@@ -1,6 +1,10 @@
-# Guide 2 — The mod setup (what to install, in what order)
+# Guide 2 — My mod loadout (a personal recommendation — nothing here is required)
 
-Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced - Modded`, or whatever folder currently holds the active name if you've already split). Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
+Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced - Modded`, or whatever folder currently holds the active name if you've already split).
+
+> ⚠️ **These are *my* mods.** This is the exact loadout I personally run on my own modded copy and recommend — but it is **not part of this project and none of it is needed for the dual-swap system**. Guide 1's split works with any mods, or with a completely stock game. Treat this page as a tested example loadout: install all of it, cherry-pick, or ignore it entirely and use your own mods — the swap scripts don't care what's in the folder.
+
+Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
 
 Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
 

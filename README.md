@@ -3,7 +3,7 @@
 Keep **two full installs** of GTA V Enhanced side by side on one Steam account:
 
 - a **100% clean, Steam-verified vanilla** copy — the only one you *ever* take into **GTA Online** (BattlEye enabled, launch options blank);
-- a **fully modded** copy for **Story Mode** — GTA Online cars in traffic and parking lots, handling/weapon/ragdoll overhauls, smarter police chases, ChaosMod.
+- a **fully modded** copy for **Story Mode** — whatever mods you like (mine, documented below: online cars in traffic, handling/weapon/ragdoll overhauls, smarter police chases, ChaosMod).
 
 …and switch between them with a double-click, in under a second.
 
@@ -29,7 +29,7 @@ Renaming a folder on the same drive is instant — no copying, no junctions, no 
 
 ✅ Included — all original work, MIT-licensed:
 - `switch/` — the folder-swap scripts + a Steam verify utility + a one-line config file
-- `docs/` — step-by-step guides: creating the split, installing every mod (with official links), and tuning the online-cars mod
+- `docs/` — guide 1 (creating the split — the core method), guide 2 (my personal mod loadout, documented as a recommendation), and guide 3 (tuning the online-cars mod)
 
 ❌ **Not included — ever:**
 - No game files, no Rockstar/Take-Two assets, no saves
@@ -44,9 +44,11 @@ Renaming a folder on the same drive is instant — no copying, no junctions, no 
 3. To play **modded Story Mode**: quit GTA V completely → run `Switch to MODDED (Story Mode).bat` → press **Play** in Steam.
 4. To play **Online**: quit GTA V completely → run `Switch to VANILLA (Online Safe).bat` → press **Play** in Steam.
 
-**Starting fresh?** Install the game, follow [docs/2-mod-setup.md](docs/2-mod-setup.md) to mod it, *then* split it with guide 1.
+**Starting fresh?** Install the game, add whatever mods you want — my recommended loadout is in [docs/2-mod-setup.md](docs/2-mod-setup.md), or use your own — *then* split it with guide 1.
 
-## The stack these scripts were built and tested with
+## My mod loadout — a personal recommendation, NOT part of this project
+
+**The dual-swap system is mod-agnostic.** It just swaps folders — it doesn't know or care what's inside them, and it works with any mods, or with a completely unmodded game. The table below is the loadout **I personally run on my own modded copy and recommend**; it is not required for the split, not bundled here, and nothing breaks if you swap things in or out. Every row links to the mod's official page:
 
 | Component | What it does | Official source |
 |---|---|---|
@@ -62,8 +64,8 @@ Renaming a folder on the same drive is instant — no copying, no junctions, no 
 | I.R.O (Ins4ne Ragdoll Overhaul) | Euphoria ragdoll reactions | [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul) |
 | ChaosMod V | random chaos effects (+ Twitch voting) | [GitHub](https://github.com/gta-chaos-mod/ChaosModV) |
 
-Full install walkthrough, load order, and pitfalls: [docs/2-mod-setup.md](docs/2-mod-setup.md).
-Tuning the online-cars spawn system: [docs/3-online-cars-config.md](docs/3-online-cars-config.md).
+Full walkthrough for that loadout, load order, and pitfalls: [docs/2-mod-setup.md](docs/2-mod-setup.md).
+Tuning its online-cars spawner: [docs/3-online-cars-config.md](docs/3-online-cars-config.md).
 
 ## The rules that keep your account safe
 
