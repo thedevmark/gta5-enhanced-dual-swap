@@ -61,7 +61,7 @@ The mod's vehicle list is synced to whatever GTA Online update was current at th
 
 ## Stacking rule
 
-Don't run a popgroup overhaul (Traffic Variety, WoV, etc.) on top of `spawn_traffic = 1` — two systems fighting over the same road population causes exactly the overfilled, jittery traffic people blame this mod for. Pick one system. If you want a specific dream car permanently: spawn it once with a trainer (Simple Trainer / Menyoo), drive it into a story garage, done — it's saved forever and no popgroup mod needed.
+Don't run a popgroup overhaul (Traffic Variety, WoV, etc.) on top of `spawn_traffic = 1` — two systems fighting over the same road population causes exactly the overfilled, jittery traffic people blame this mod for. Pick one system. If you want a specific dream car permanently: grab it in traffic, tune it at a Los Santos Customs, then press F7 and set it as that character's main ride with [Swap Main Ride](https://www.gta5-mods.com/scripts/swap-main-ride) — it becomes a persistent personal vehicle with a blip and recovery. No trainer, no popgroup mod.
 
 ## If something looks broken
 

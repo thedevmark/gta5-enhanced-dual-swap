@@ -6,7 +6,7 @@ Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced 
 
 Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
 
-Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
+Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Swap Main Ride 1.6, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
 
 ## Layer 1 — the toolchain (install first)
 
@@ -35,20 +35,25 @@ Overhauls police behaviour and the wanted system (roadblocks that make sense, su
 ### 7. LemonUI — [github.com/LMS01/LemonUI](https://github.com/LMS01/LemonUI)
 UI library Better Chases+ depends on. Put the matching `LemonUI.SHVDN3.dll` into `scripts\`.
 
+### 8. Swap Main Ride — [gta5-mods](https://www.gta5-mods.com/scripts/swap-main-ride)
+Own any car. Sit in it, press **F7**, set it as that character's main (or secondary) ride — it replaces the protagonist's stock personal vehicle with your pick, through the game's own ownership system: persistent across saves, map blip, recovery when lost, full state capture (damage, doors, windows, locks, engine), autosave while driving. Built exclusively for Enhanced; mission- and cutscene-aware. Copy `SwapMainRide.asi` to the game **root** (it's an ASI plugin, not a `scripts\` mod); `SwapMainRide.ini` generates on first run and remaps the menu key. Story Mode only — the mod states this itself.
+
+The workflow I use: find an online car in traffic (mod #5 feeds them), tune it at a normal Los Santos Customs, press F7, Set Main Ride. That car is now *yours* — permanently, per character.
+
 ## Layer 3 — OIV archive mods (install with OpenIV into `mods\`)
 
-### 8. Drive V — [gta5-mods](https://www.gta5-mods.com/vehicles/drive-v-realistic-driving-car-handling)
+### 9. Drive V — [gta5-mods](https://www.gta5-mods.com/vehicles/drive-v-realistic-driving-car-handling)
 Realistic handling, traction and damage for every vehicle incl. DLC. Install the OIV via OpenIV **into the mods folder**.
 
-### 9. Full Weapon Overhaul 3.0 — [gta5-mods](https://www.gta5-mods.com/weapons/gta5-enhanced-penetration-firerate-magsize-damage-fov-recoil-ext)
+### 10. Full Weapon Overhaul 3.0 — [gta5-mods](https://www.gta5-mods.com/weapons/gta5-enhanced-penetration-firerate-magsize-damage-fov-recoil-ext)
 Rebalanced weapon feel (penetration, fire rates, recoil, FOV). Enhanced-compatible; OIV install, same rule: mods folder.
 
-### 10. I.R.O (Ins4ne Ragdoll Overhaul) — [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul)
+### 11. I.R.O (Ins4ne Ragdoll Overhaul) — [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul)
 Euphoria ragdoll reactions — get the **Grounded** edition for the realistic variant. OIV install.
 
 ## Layer 4 — chaos (optional, great for streaming)
 
-### 11. ChaosMod V — [GitHub](https://github.com/gta-chaos-mod/ChaosModV) · [gta5-mods](https://www.gta5-mods.com/scripts/chaos-mod-v)
+### 12. ChaosMod V — [GitHub](https://github.com/gta-chaos-mod/ChaosModV) · [gta5-mods](https://www.gta5-mods.com/scripts/chaos-mod-v)
 A random effect every N seconds, with Twitch-chat voting built in (`chaosmod\TwitchChatVotingProxy.exe`). Ships `ChaosMod.asi` + `MinHook.x64.dll` at the root and its data in `chaosmod\`.
 
 ## Two war stories (learn from our pain)
