@@ -2,7 +2,7 @@
 
 Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced - Modded`, or whatever folder currently holds the active name if you've already split).
 
-> **These are *my* mods.** This is the exact loadout I personally run on my own modded copy and recommend — but it is **not part of this project and none of it is needed for the dual-swap system**. Guide 1's split works with any mods, or with a completely stock game. Treat this page as a tested example loadout: install all of it, cherry-pick, or ignore it entirely and use your own mods — the swap scripts don't care what's in the folder.
+> **These are *my* mods.** This is the exact loadout I run on my own modded copy and recommend — but it is **not part of this project and none of it is needed for the dual-swap system**. Guide 1's split works with any mods, or with a completely stock game. Treat this page as a tested example loadout: install all of it, cherry-pick, or ignore it entirely and use your own mods — the swap scripts don't care what's in the folder.
 
 Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
 
@@ -68,7 +68,7 @@ dir /s /b "<game>\scripts\*.dll"
 …which should only list DLLs sitting directly in `scripts\`.
 
 ### A sound mod Steam had to un-mod
-If an OIV package was ever installed against the real game files instead of the `mods` folder, the stock `.rpf`s stop matching Steam's hashes. Our split's verify step caught exactly that: two stock audio archives were non-factory and got re-downloaded (~88 MB, `result No Error`). That's the system working — but it's also why the vanilla folder must never be the modded one. Keep OIV installs pointed at `mods\` and the two worlds never collide.
+If an OIV package was ever installed against the real game files instead of the `mods` folder, the stock `.rpf`s stop matching Steam's hashes. Our split's verify step caught exactly that: two stock audio archives were non-factory and got re-downloaded (~88 MB, `result No Error`). That's the system working — but it's also why mods never belong in the vanilla copy. Keep OIV installs pointed at `mods\` and the two worlds never collide.
 
 ## Daily driver cheatsheet
 

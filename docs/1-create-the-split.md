@@ -66,7 +66,7 @@ dir /s /b "<LIB>\Grand Theft Auto V Enhanced\*.asi"
 
 ## Step 3 — Verify integrity of the vanilla copy
 
-This is the step that buys you peace of mind: Steam re-hashes every depot file and **re-downloads any stock file that a mod ever modified**. (In our reference setup, a weapon-sound edit had touched two stock audio archives — `x64\audio\sfx\RESIDENT.rpf` and `WEAPONS_PLAYER.rpf`, ~88 MB — and verify quietly restored them to factory bytes.)
+This is the step that makes the vanilla copy provably clean: Steam re-hashes every depot file and **re-downloads any stock file that a mod ever modified**. (In our reference setup, a weapon-sound edit had touched two stock audio archives — `x64\audio\sfx\RESIDENT.rpf` and `WEAPONS_PLAYER.rpf`, ~88 MB — and verify quietly restored them to factory bytes.)
 
 1. Start Steam (leave the Rockstar launcher alone).
 2. Either run the `Verify Vanilla (Steam).bat` from this repo's `switch/` folder, or do it by hand:
@@ -103,8 +103,8 @@ Never launch either copy by double-clicking an exe — the Steam Enhanced build 
 
 ## Housekeeping
 
-- **Updating the modded copy** (only when you *want* new game content): swap to vanilla → let Steam update it → wait until ScriptHookV ships a matching build → re-do the copy in Step 1 (delete the old `- Modded` folder first) → re-install any script-mod updates. Until then the modded copy stays happily frozen on a known-good build.
+- **Updating the modded copy** (only when you *want* new game content): swap to vanilla → let Steam update it → wait until ScriptHookV ships a matching build → re-do the copy in Step 1 (delete the old `- Modded` folder first) → re-install any script-mod updates. Until then the modded copy stays frozen on a known-good build.
 - **Story saves** live in `Documents\Rockstar Games\` and are shared by both copies — your story progress is identical either side.
-- BattlEye is dormant in Story Mode; the vanilla copy carries it, and the modded copy's copy of the folder is inert unless you go Online (which you must never do from the modded side).
+- BattlEye is dormant in Story Mode. The vanilla copy carries it; the duplicate `BattlEye` folder inside the modded copy is inert unless you enter Online — which you must never do from the modded side.
 
 → Next (optional): [guide 2 — my recommended mod loadout](2-mod-setup.md)
