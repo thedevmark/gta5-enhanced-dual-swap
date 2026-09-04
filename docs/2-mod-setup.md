@@ -28,7 +28,7 @@ The `.asi` files need a loader DLL. The [OpenRPF](https://www.gta5-mods.com/tool
 
 ### 5. All MP Vehicles in SP — [gta5-mods](https://www.gta5-mods.com/scripts/all-mp-vehicles-in-sp) · [GitHub](https://github.com/sruckstar/gta5-all-mp-vehicles-in-sp)
 The headline act: every GTA Online vehicle spawning naturally in single player — parking lots, traffic, the LS Car Meet. Install the `.dll` into `scripts\`. Needs the SHVDN nightly (see #2). Full tuning guide: [guide 3](3-online-cars-config.md).
-I run a [config-hardened fork](https://github.com/thedevmark/gta5-all-mp-vehicles-in-sp) of it: one spawner fix (a class emptied by the blacklist falls back to normal cars instead of dead lots), a tuned "Healthy Mixed Mode" default ini, and a curated blacklist (police-liveried and hover/fly vehicles removed from traffic). Same license, full credit upstream.
+I run a [config-hardened fork](https://github.com/thedevmark/gta5-all-mp-vehicles-in-sp) of it: one spawner fix (a class emptied by the blacklist falls back to normal cars instead of dead lots), a tuned "Healthy Mixed Mode" default ini, and a lean default blacklist (only the mechanically broken spawners — hover/fly vehicles; a no-police option ships as a commented recipe). Same license, full credit upstream.
 
 ### 6. Better Chases+ Enhanced — [gta5-mods](https://www.gta5-mods.com/scripts/better-chases-enhanced-edition)
 Overhauls police behaviour and the wanted system (roadblocks that make sense, suspects that flee on foot, arrest warrants). Port of the classic [Better Chases+](https://www.gta5-mods.com/scripts/better-chases) for Enhanced. Drop `BetterChasesPlus.Enhanced.dll` into `scripts\` and its `BetterChasesConfig.xml` next to it.
