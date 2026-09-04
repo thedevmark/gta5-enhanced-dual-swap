@@ -2,10 +2,10 @@
 
 Keep **two full installs** of GTA V Enhanced side by side on one Steam account:
 
-- a **100% clean, Steam-verified vanilla** copy — the only one you *ever* take into **GTA Online** (BattlEye enabled, launch options blank);
-- a **fully modded** copy for **Story Mode** — whatever mods you like (mine, documented below: online cars in traffic, handling/weapon/ragdoll overhauls, smarter police chases, ChaosMod).
+- a **100% clean, Steam-verified vanilla** copy — the only one you ever take into GTA Online (BattlEye enabled, launch options blank);
+- a **fully modded** copy for Story Mode — whatever mods you like (mine, documented below: online cars in traffic, handling/weapon/ragdoll overhauls, smarter police chases, ChaosMod).
 
-…and switch between them with a double-click, in under a second.
+Switch between them with a double-click, in under a second.
 
 ## Why the swap method exists
 
@@ -27,13 +27,13 @@ Renaming a folder on the same drive is instant — no copying, no junctions, no 
 
 ## What's in this repo (and what is deliberately NOT)
 
-✅ Included — all original work, MIT-licensed:
+**Included** — all original work, MIT-licensed:
 - `switch/` — the folder-swap scripts + a Steam verify utility + a one-line config file
 - `docs/` — guide 1 (creating the split — the core method), guide 2 (my personal mod loadout, documented as a recommendation), and guide 3 (tuning the online-cars mod)
 
-❌ **Not included — ever:**
+**Not included, ever:**
 - No game files, no Rockstar/Take-Two assets, no saves
-- **No mod files.** Every mod below is the property of its author and must be downloaded from its official page (linked throughout). This repo links, it does not bundle — that keeps it clean for everyone including the mod authors.
+- No mod files. Every mod below belongs to its author and must be downloaded from its official page (linked throughout). This repo links, it does not bundle — that keeps it clean for everyone, including the mod authors.
 
 ## Quick start
 
@@ -75,7 +75,7 @@ Tuning its online-cars spawner: [docs/3-online-cars-config.md](docs/3-online-car
 4. After the split, run Steam's **Verify integrity** on the vanilla copy once — it re-downloads any stock file a mod ever touched (guide 1 explains; ours caught and restored two modified audio archives).
 5. In Steam, set GTA V Enhanced → Properties → Updates → **"Only update this game when I launch it"**, so Steam can never auto-patch the game while the modded copy is swapped in (a surprise patch breaks ScriptHookV's build match).
 
-No method can *guarantee* nothing ever happens to an account — but with a verified-clean vanilla folder and these rules, the modded side and the Online side never share a single file.
+Nothing here can promise what happens to an account. But with a verified-clean vanilla folder and these rules, the modded side and the Online side never share a single file.
 
 ## Troubleshooting
 

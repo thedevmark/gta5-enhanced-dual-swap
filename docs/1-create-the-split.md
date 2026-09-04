@@ -31,7 +31,7 @@ robocopy "<LIB>\Grand Theft Auto V Enhanced" "<LIB>\Grand Theft Auto V Enhanced 
 
 Robocopy exit codes **0–7 are success** (1 = "files were copied"). When it finishes, check the log tail for the summary — `FAILED` must be `0`. Our reference copy: 431 files, 130 dirs, 104.17 GiB, 0 failed, byte totals identical on both sides.
 
-> ⚠️ Do this copy **before** touching any mod files. The modded copy must snapshot your working game exactly as-is.
+> Do this copy **before** touching any mod files. The modded copy must snapshot your working game exactly as-is.
 
 ## Step 2 — Strip every mod file out of the ORIGINAL folder
 
