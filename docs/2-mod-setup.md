@@ -6,7 +6,7 @@ Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced 
 
 Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
 
-Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Swap Main Ride 1.6, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
+Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Swap Main Ride 1.6, SimpleAutoDrive 1.0, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
 
 ## Layer 1 — the toolchain (install first)
 
@@ -41,20 +41,23 @@ Own any car. Sit in it, press **F7**, set it as that character's main (or second
 
 The workflow I use: find an online car in traffic (mod #5 feeds them), tune it at a normal Los Santos Customs, press F7, Set Main Ride. That car is now *yours* — permanently, per character.
 
+### 9. SimpleAutoDrive — [GitHub](https://github.com/thedevmark/gta5-simple-autodrive)
+My own mod, written after the gta5-mods autopilots misbehaved on Enhanced. Set a waypoint, tap **F6** and the car drives the GPS route; hold **F6** two seconds to cycle aggression (Cruise/Hurried/Insane — applies mid-drive). The route task is reissued every 2 seconds, so it can't drive the wrong way. `SimpleAutoDrive.dll` into `scripts\`.
+
 ## Layer 3 — OIV archive mods (install with OpenIV into `mods\`)
 
-### 9. Drive V — [gta5-mods](https://www.gta5-mods.com/vehicles/drive-v-realistic-driving-car-handling)
+### 10. Drive V — [gta5-mods](https://www.gta5-mods.com/vehicles/drive-v-realistic-driving-car-handling)
 Realistic handling, traction and damage for every vehicle incl. DLC. Install the OIV via OpenIV **into the mods folder**.
 
-### 10. Full Weapon Overhaul 3.0 — [gta5-mods](https://www.gta5-mods.com/weapons/gta5-enhanced-penetration-firerate-magsize-damage-fov-recoil-ext)
+### 11. Full Weapon Overhaul 3.0 — [gta5-mods](https://www.gta5-mods.com/weapons/gta5-enhanced-penetration-firerate-magsize-damage-fov-recoil-ext)
 Rebalanced weapon feel (penetration, fire rates, recoil, FOV). Enhanced-compatible; OIV install, same rule: mods folder.
 
-### 11. I.R.O (Ins4ne Ragdoll Overhaul) — [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul)
+### 12. I.R.O (Ins4ne Ragdoll Overhaul) — [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul)
 Euphoria ragdoll reactions — get the **Grounded** edition for the realistic variant. OIV install.
 
 ## Layer 4 — chaos (optional, great for streaming)
 
-### 12. ChaosMod V — [GitHub](https://github.com/gta-chaos-mod/ChaosModV) · [gta5-mods](https://www.gta5-mods.com/scripts/chaos-mod-v)
+### 13. ChaosMod V — [GitHub](https://github.com/gta-chaos-mod/ChaosModV) · [gta5-mods](https://www.gta5-mods.com/scripts/chaos-mod-v)
 A random effect every N seconds, with Twitch-chat voting built in (`chaosmod\TwitchChatVotingProxy.exe`). Ships `ChaosMod.asi` + `MinHook.x64.dll` at the root and its data in `chaosmod\`.
 
 ## Two war stories (learn from our pain)
