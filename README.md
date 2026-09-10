@@ -60,7 +60,7 @@ Renaming a folder on the same drive is instant — no copying, no junctions, no 
 | Better Chases+ Enhanced | realistic police/wanted system | [gta5-mods](https://www.gta5-mods.com/scripts/better-chases-enhanced-edition) |
 | LemonUI | UI library used by Better Chases+ | [GitHub](https://github.com/LMS01/LemonUI) |
 | Swap Main Ride | own any car as a protagonist's personal vehicle | [gta5-mods](https://www.gta5-mods.com/scripts/swap-main-ride) |
-| AutoDriver Mod | one-key waypoint autopilot (F5 toggle) | [gta5-mods](https://www.gta5-mods.com/scripts/autodriver-mod) |
+| VAutodrive | waypoint autopilot (J to drive) | [LibertyCity mirror](https://libertycity.net/files/gta-5/113753-vautodrive-v8.0.2.html) |
 | Drive V | realistic handling & damage | [gta5-mods](https://www.gta5-mods.com/vehicles/drive-v-realistic-driving-car-handling) |
 | Full Weapon Overhaul 3.0 | weapon feel rebalance | [gta5-mods](https://www.gta5-mods.com/weapons/gta5-enhanced-penetration-firerate-magsize-damage-fov-recoil-ext) |
 | I.R.O (Ins4ne Ragdoll Overhaul) | Euphoria ragdoll reactions | [gta5-mods](https://www.gta5-mods.com/misc/i-r-o-ins4ne-ragdoll-overhaul) |
