@@ -6,7 +6,7 @@ Every mod below lives on the **modded copy only** (`Grand Theft Auto V Enhanced 
 
 Download each from its official page — **this repo does not bundle any of them**, and re-uploading someone's mod elsewhere is both rude and against most mod sites' rules.
 
-Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Swap Main Ride 1.6, SimpleAutoDrive 1.0, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
+Reference stack this was built and tested with (GTA V Enhanced, Steam, game build 24129078): ScriptHookV build 3889, ScriptHookVDotNet 3.9.0 nightly, OpenRPF, All MP Vehicles in SP 4.0.1, Better Chases+ Enhanced 1.1.3, LemonUI, Swap Main Ride 1.6, AutoDriver Mod 2.2, Drive V, Full Weapon Overhaul 3.0, I.R.O Grounded, ChaosMod V.
 
 ## Layer 1 — the toolchain (install first)
 
@@ -41,8 +41,8 @@ Own any car. Sit in it, press **F7**, set it as that character's main (or second
 
 The workflow I use: find an online car in traffic (mod #5 feeds them), tune it at a normal Los Santos Customs, press F7, Set Main Ride. That car is now *yours* — permanently, per character.
 
-### 9. SimpleAutoDrive — [GitHub](https://github.com/thedevmark/gta5-simple-autodrive)
-My own mod, written after the gta5-mods autopilots misbehaved on Enhanced. Set a waypoint, tap **F6** and the car drives the GPS route; hold **F6** two seconds to cycle aggression (Cruise/Hurried/Insane — applies mid-drive). The route task is reissued every 2 seconds, so it can't drive the wrong way. `SimpleAutoDrive.dll` into `scripts\`.
+### 9. AutoDriver Mod — [gta5-mods](https://www.gta5-mods.com/scripts/autodriver-mod)
+Waypoint autopilot: set a waypoint, press **F5**, the game drives you there. Enhanced-native (v1.6+), parking-spot detection, keybinds configurable in its ini (defaults: F5 toggle, PageUp/PageDown speed offset, F7 aggressive driving — check for conflicts with your own F7 bindings). Zip contents (`AutoDriver.dll` + ini) into `scripts\`.
 
 ## Layer 3 — OIV archive mods (install with OpenIV into `mods\`)
 
